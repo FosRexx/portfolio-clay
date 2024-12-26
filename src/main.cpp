@@ -1,5 +1,8 @@
 #include <iostream>
 
+#define CLAY_IMPLEMENTATION
+#include "clay/clay.h"
+
 #include "portfolio.h"
 
 int main (int argc, char *argv[]) {
