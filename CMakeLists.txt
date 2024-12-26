@@ -14,3 +14,5 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "${PROJECT_SOURCE_DIR}/src/*.cpp")
 add_executable(portfolio ${SOURCES})
 
 target_include_directories(portfolio PUBLIC ${PROJECT_BINARY_DIR} ${PROJECT_SOURCE_DIR}/include)
+
+target_include_directories(portfolio PUBLIC ${PROJECT_BINARY_DIR}/thirdparty)
