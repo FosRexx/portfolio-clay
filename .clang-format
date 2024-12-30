@@ -1,0 +1,36 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: 0
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+  Enabled: true
+AlignConsecutiveBitFields:
+  Enabled: true
+AlignConsecutiveMacros:
+  Enabled: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+AlignConsecutiveTableGenBreakingDAGArgColons:
+  Enabled: true
+AlignConsecutiveTableGenCondOperatorColons:
+  Enabled: true
+AlignConsecutiveTableGenDefinitionColons:
+  Enabled: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: true
+BreakAfterAttributes: Always
+ContinuationIndentWidth: 2
+IncludeBlocks: Regroup
+IndentAccessModifiers: true
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+InsertTrailingCommas: Wrapped
+NamespaceIndentation: All
+SpaceAfterCStyleCast: true
+SpaceBeforeCpp11BracedList: true
+TabWidth: 2
