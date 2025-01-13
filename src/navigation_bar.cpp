@@ -8,14 +8,14 @@ void RenderNavBarButton(Clay_String text) {
     CLAY_LAYOUT({
       .padding = {16, 16}
   }),
-    CLAY_RECTANGLE({.color = SECONDARY_BACKGOUND})
+    CLAY_RECTANGLE({.color = {0}})
   ) {
     CLAY_TEXT(
       text,
       CLAY_TEXT_CONFIG({
         .textColor = SECONDARY,
-        .fontId    = FONT_ID_BODY_16,
-        .fontSize  = 26,
+        .fontId    = FONT_ID_BODY_24,
+        .fontSize  = 24,
       })
     );
   }

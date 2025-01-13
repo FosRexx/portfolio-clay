@@ -1,6 +1,7 @@
 #define CLAY_IMPLEMENTATION
 #include "clay/clay.h"
 #include "constants.h"
+#include "greeting.h"
 #include "initialize_and_render.h"
 #include "navigation_bar.h"
 #include "portfolio.h"
@@ -45,7 +46,9 @@ int main(int argc, char *argv[]) {
       NavigationBar();
 
       /* Main Content */
-      CLAY(CLAY_ID("Main"), CLAY_LAYOUT({.sizing = layoutExpand})) {};
+      CLAY(CLAY_ID("Main"), CLAY_LAYOUT({.sizing = layoutExpand})) {
+        Greeting(layoutExpand);
+      };
     };
 
     Render();

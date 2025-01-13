@@ -40,10 +40,10 @@ void InitializeClay() {
   /* Font */
   Clay_SetMeasureTextFunction(Raylib_MeasureText);
 
-  Raylib_fonts[FONT_ID_BODY_16] = (Raylib_Font) {
-    .fontId = FONT_ID_BODY_16,
+  Raylib_fonts[FONT_ID_BODY_24] = (Raylib_Font) {
+    .fontId = FONT_ID_BODY_24,
     .font   = LoadFontEx(
-      "/usr/share/fonts/TTF/HackNerdFontMono-Regular.ttf", 48, 0, 400
+      "/usr/share/fonts/TTF/HackNerdFontMono-Regular.ttf", 24, 0, 400
     ),
   };
 }
