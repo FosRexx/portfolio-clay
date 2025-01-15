@@ -1,6 +1,6 @@
 [submodule "thirdparty/clay"]
 	path = thirdparty/clay
-	url = https://github.com/nicbarker/clay
+  url = https://github.com/FosRexx/clay
 [submodule "emsdk"]
 	path = emsdk
-	url = https://github.com/emscripten-core/emsdk.git
+  url = https://github.com/emscripten-core/emsdk.git
